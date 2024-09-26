@@ -65,7 +65,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Enrique Edgar Negri Petri. Please call me Vector.</span> I'm a{" "}
         <span className="font-bold">software engineer</span> at{" "}
-        <span className="font-bold">Mendoza</span> in Argentina. I'm currently working with Shopify, Medusa.js, React.js, Next.js, Node.js, Tailwind CSS, Sass, Material UI, ANTD, Laravel.
+        <span className="font-bold">Mendoza</span> in Argentina. I'm currently working with Shopify, Medusa.js, React.js, Next.js, Node.js, Tailwind CSS, Sass,  Material UI, ANTD, Wordpress, Laravel.
       </motion.h1>
 
       <motion.div

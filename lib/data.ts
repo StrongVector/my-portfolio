@@ -68,11 +68,11 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "SPARKLEinPINK",
-    description: "This site is for children. In this, all guests can buy clothes and things for school and users can sell the things. React, scss for frontend and shopify, express, node.js for backend. I was charge of frontend",
-    tags: ["shopify", "react", "scss", "express", "nodejs"],
+    description: "This site is for children. In this, all guests can buy clothes and things for school and users can sell the things. wordpress, scss for frontend and shopify, express, node.js for backend. I was charge of frontend",
+    tags: ["shopify", "wordpress", "scss", "express", "nodejs"],
     icons: [
       "logos:shopify",
-      "logos:react",
+      "logos:wordpress",
       "logos:scss",
       "logos:express",
       "logos:nodejs-icon",
@@ -85,10 +85,10 @@ export const projectsData = [
     title: "LEVANTINE",
     description:
       "This site is for children. In this, all guests can buy clothes and things for school and users can sell the things. React, scss for frontend and shopify, node.js for backend. I was charge of backend",
-    tags: ["shopify", "react", "scss", "nodejs"],
+    tags: ["shopify", "wordpress", "scss", "nodejs"],
     icons: [
       "logos:shopify",
-      "logos:react",
+      "logos:wordpress",
       "logos:scss",
       "logos:nodejs-icon",
     ],
@@ -117,15 +117,13 @@ export const projectsData = [
   {
     title: "Pink the cat",
     description:
-      "Pink the cat is e-shop site for selling and buying tools. Frontend is made by react + scss. Backend is on shopify. I was charge of backend and I had completed it without any fault",
-    tags: ["shopify", "react", "typescript", "scss", "express", "nodejs"],
+      "Pink the cat is e-shop site for selling and buying tools. Frontend is made by wordpress + scss. Backend is on shopify. I was charge of backend and I had completed it without any fault",
+    tags: ["shopify", "react", "typescript", "scss",],
     icons: [
       "logos:shopify",
       "logos:react",
       "logos:typescript",
-      "logos:scss",
-      "logos:express",
-      "logos:nodejs-icon",
+      "logos:scss"
     ],
     imageUrl: assetTradingImg,
     urlLink: "https://eratchet.com/",
@@ -134,9 +132,9 @@ export const projectsData = [
   {
     title: "NEEDED",
     description:
-      "E-shop system written in react + shopify. Product management system via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
-    tags: ["Java", "MariaDB", "shopify", "react"],
-    icons: ["logos:java", "logos:mariadb-icon", "logos:shopify", "logos:react"],
+      "E-shop system written in wordpress + shopify. Product management system via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
+    tags: ["Java", "MariaDB", "shopify", "wordpress"],
+    icons: ["logos:java", "logos:mariadb-icon", "logos:shopify", "logos:wordpress"],
     imageUrl: ozdevsImg,
     githubLink: "https://github.com/StrongVector/vue-medusa",
     urlLink: "https://thisisneeded.com/",
@@ -178,6 +176,10 @@ export const skillsData = [
     name: "PHP",
     icon: "logos:php",
   },
+  {
+    name: "",
+    icon: "logos:wordpress",
+  },
 
   {
     name: "Laravel",
@@ -198,6 +200,10 @@ export const skillsData = [
   {
     name: "Python",
     icon: "logos:python",
+  },
+  {
+    name: "Wordpress",
+    icon: "logos:wordpress",
   },
   // {
   //   name: "Java",
