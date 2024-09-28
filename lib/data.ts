@@ -8,6 +8,7 @@ import assetTradingImg from "@/public/4.png";
 import techprowlImg from "@/public/2-2.png";
 // import taskManagerImg from "@/public/task-manager.png";
 import familyTreeImg from "@/public/1-1.png"; 
+import electropia from "@/public/electropia.png"; 
 import hizenimg from "@/public/5.png"; 
 // import binaryGameImg from "@/public//binary-game.png";
 
@@ -146,6 +147,16 @@ export const projectsData = [
     imageUrl: hizenimg,
     // githubLink: "https://github.com/StrongVector/vue-medusa",
     urlLink: "https://en.hizen.de/",
+  },
+  {
+    title: "Electropia",
+    description:
+      "E-shop system written in openai  + react + shopify. Charged of electronics marketing, and sale.",
+    tags: ["react",  "shopify"],
+    icons: ["logos:react",  "logos:shopify"],
+    imageUrl: electropia,
+    // githubLink: "https://github.com/StrongVector/vue-medusa",
+    urlLink: "https://72c916-e5.myshopify.com/",
   },
 ] as const;
 
