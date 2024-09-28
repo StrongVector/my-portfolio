@@ -68,7 +68,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "SPARKLEinPINK",
-    description: "This site is for children. In this, all guests can buy clothes and things for school and users can sell the things. wordpress, scss for frontend and shopify for backend. I was charge of frontend",
+    description: "wordpress, scss for frontend and shopify for backend. I was charge of frontend",
     tags: ["shopify", "wordpress", "scss"],
     icons: [
       "logos:shopify",
@@ -77,12 +77,12 @@ export const projectsData = [
     ],
     imageUrl: familyTreeImg,
     githubLink: "https://github.com/StrongVector/clothes-ecommerce-mern",
-    urlLink: "https://sparkleinpink.com ",
+    urlLink: "https://sparkleinpink.com",
   },
   {
     title: "LEVANTINE",
     description:
-      "This site is for children. In this, all guests can buy clothes and things for school and users can sell the things. React, scss for frontend and shopify, node.js for backend. I was charge of backend",
+      "React, scss for frontend and shopify, node.js for backend. I was charge of backend",
     tags: ["shopify", "wordpress", "scss", "nodejs"],
     icons: [
       "logos:shopify",
@@ -97,7 +97,7 @@ export const projectsData = [
   {
     title: "Poly&Bark",
     description:
-      "Poly&Bark site is e-shop site for selling and buying furnitures. Frontend is made by reat + tailwind + scss. All elements is based on shopify",
+      "Frontend is made by reat + tailwind + scss. All elements is based on shopify",
     tags: ["shopify", "react", "typescript", "tailwindcss", "scss", "express", "node"],
     icons: [
       "logos:shopify",
@@ -115,7 +115,7 @@ export const projectsData = [
   {
     title: "Pink the cat",
     description:
-      "Pink the cat is e-shop site for selling and buying tools. Frontend is made by wordpress + scss. Backend is on shopify. I was charge of backend and I had completed it without any fault",
+      "Frontend is made by wordpress + scss. Backend is on shopify. I was charge of backend and I had completed it without any fault",
     tags: ["shopify", "react", "typescript", "scss",],
     icons: [
       "logos:shopify",
@@ -198,10 +198,6 @@ export const skillsData = [
   {
     name: "Python",
     icon: "logos:python",
-  },
-  {
-    name: "Wordpress",
-    icon: "logos:wordpress",
   },
   // {
   //   name: "Java",
