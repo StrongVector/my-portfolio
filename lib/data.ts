@@ -68,7 +68,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "SPARKLEinPINK",
-    description: "This site is for children. In this, all guests can buy clothes and things for school and users can sell the things. wordpress, scss for frontend and shopify, shopify for backend. I was charge of frontend",
+    description: "This site is for children. In this, all guests can buy clothes and things for school and users can sell the things. wordpress, scss for frontend and shopify for backend. I was charge of frontend",
     tags: ["shopify", "wordpress", "scss"],
     icons: [
       "logos:shopify",
