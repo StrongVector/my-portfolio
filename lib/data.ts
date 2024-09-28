@@ -68,14 +68,12 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "SPARKLEinPINK",
-    description: "This site is for children. In this, all guests can buy clothes and things for school and users can sell the things. wordpress, scss for frontend and shopify, express, node.js for backend. I was charge of frontend",
-    tags: ["shopify", "wordpress", "scss", "express", "nodejs"],
+    description: "This site is for children. In this, all guests can buy clothes and things for school and users can sell the things. wordpress, scss for frontend and shopify, shopify for backend. I was charge of frontend",
+    tags: ["shopify", "wordpress", "scss"],
     icons: [
       "logos:shopify",
       "logos:wordpress",
       "logos:scss",
-      "logos:express",
-      "logos:nodejs-icon",
     ],
     imageUrl: familyTreeImg,
     githubLink: "https://github.com/StrongVector/clothes-ecommerce-mern",
