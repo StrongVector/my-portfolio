@@ -70,9 +70,9 @@ export const projectsData = [
   {
     title: "Electropia",
     description:
-      "E-shop system written in openai  + react + shopify. Charged of electronics marketing, and sale.",
-    tags: ["react", "shopify"],
-    icons: ["logos:react", "logos:shopify"],
+      "E-shop system written in openai  + react + shopify + node.js. Charged of electronics marketing, and sale.",
+    tags: ["react", "shopify" , "nodejs"],
+    icons: ["logos:react", "logos:shopify","logos:nodejs"],
     imageUrl: electropia,
     // githubLink: "https://github.com/StrongVector/vue-medusa",
     urlLink: "https://72c916-e5.myshopify.com/",
@@ -92,8 +92,8 @@ export const projectsData = [
     title: "NEEDED",
     description:
       "E-shop system written in wordpress + shopify. Product management system via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
-    tags: ["Java", "MariaDB", "shopify", "wordpress"],
-    icons: ["logos:java", "logos:mariadb-icon", "logos:shopify", "logos:wordpress"],
+    tags: ["Java", "MariaDB", "shopify"],
+    icons: ["logos:java", "logos:mariadb-icon", "logos:shopify", ],
     imageUrl: ozdevsImg,
     githubLink: "https://github.com/StrongVector/vue-medusa",
     urlLink: "https://thisisneeded.com/",
@@ -150,12 +150,13 @@ export const projectsData = [
     title: "Pink the cat",
     description:
       "Frontend is made by wordpress + scss. Backend is on shopify. I was charge of backend and I had completed it without any fault",
-    tags: ["shopify", "react", "typescript", "scss",],
+    tags: ["shopify", "react", "typescript", "scss","nodejs"],
     icons: [
       "logos:shopify",
       "logos:react",
       "logos:typescript",
-      "logos:scss"
+      "logos:scss",
+      "logos:nodejs"
     ],
     imageUrl: assetTradingImg,
     urlLink: "https://eratchet.com/",
