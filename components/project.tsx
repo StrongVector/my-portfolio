@@ -9,7 +9,7 @@ import { Icon } from "@iconify/react";
 
 type ProjectProps = {
   title: string;
-  description: string;
+  description?: string;
   tags: readonly string[];
   icons: readonly string[];
   imageUrl: StaticImageData;
