@@ -76,22 +76,6 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        {/* <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://github.com/ben04rogers"
-          target="_blank"
-        >
-          GitHub <FaGithub className="opacity-70" />
-        </a>
-
-        <a
-          className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://www.linkedin.com/in/ben-rogers-dev/"
-          target="_blank"
-        >
-          <span className="opacity-70">LinkedIn</span>
-          <BsLinkedin className="opacity-70" />
-        </a> */}
       </motion.div>
     </section>
   );

@@ -69,8 +69,8 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Electropia",
-    description:
-      "E-shop system written in openai  + next.js + shopify + node.js. Charged of electronics marketing, and sale.",
+    // description:
+    //   "Ecommerce site written with next.js + shopify + node.js. Charged of electronics marketing, and sale.",
     tags: ["next.js", "shopify" , "nodejs"],
     icons: ["logos:nextjs", "logos:shopify","logos:nodejs"],
     imageUrl: electropia,
@@ -79,8 +79,8 @@ export const projectsData = [
   },
   {
     title: "HiZEN",
-    description:
-      "E-shop system written in three.js + openai  + javascript + shopify. Charged of vaporizer marketing, and sale. I was charge of questionaire and 3D modeling display",
+    // description:
+    //   "E-shop system written in three.js + openai  + javascript + shopify. Charged of vaporizer marketing, and sale. I was charge of questionaire and 3D modeling display",
     tags: ["JavaScript", "shopify", "tabler:brand-threejs"],
     icons: ["logos:javascript", "logos:shopify", "logos: openai"],
     imageUrl: hizenimg,
@@ -90,18 +90,18 @@ export const projectsData = [
 
   {
     title: "NEEDED",
-    description:
-      "E-shop system written in wordpress + shopify. Product management system via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
+    // description:
+    //   "E-shop system written in wordpress + shopify. Product management system via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
     tags: ["Java", "MariaDB", "shopify"],
     icons: ["logos:java", "logos:mariadb-icon", "logos:shopify", ],
     imageUrl: ozdevsImg,
-    githubLink: "https://github.com/StrongVector/vue-medusa",
+    // githubLink: "https://github.com/StrongVector/vue-medusa",
     urlLink: "https://thisisneeded.com/",
   },
   {
     title: "LEVANTINE",
-    description:
-      "React, scss for frontend and shopify, node.js for backend. I was charge of backend",
+    // description:
+    //   "React, scss for frontend and shopify, node.js for backend. I was charge of backend",
     tags: ["shopify", "wordpress", "scss", "nodejs"],
     icons: [
       "logos:shopify",
@@ -110,13 +110,13 @@ export const projectsData = [
       "logos:nodejs-icon",
     ],
     imageUrl: techprowlImg,
-    githubLink: "https://github.com/StrongVector/Apotek-full-laravel",
+    // githubLink: "https://github.com/StrongVector/Apotek-full-laravel",
     urlLink: "https://levantinebags.com/",
   },
 
   {
     title: "SPARKLEinPINK",
-    description: "wordpress, scss for frontend and shopify for backend. I was charge of frontend",
+    // description: "wordpress, scss for frontend and shopify for backend. I was charge of frontend",
     tags: ["shopify", "wordpress", "scss"],
     icons: [
       "logos:shopify",
@@ -124,14 +124,14 @@ export const projectsData = [
       "logos:scss",
     ],
     imageUrl: familyTreeImg,
-    githubLink: "https://github.com/StrongVector/clothes-ecommerce-mern",
+    // githubLink: "https://github.com/StrongVector/clothes-ecommerce-mern",
     urlLink: "https://sparkleinpink.com",
   },
 
   {
     title: "Poly&Bark",
-    description:
-      "Frontend is made by reat + tailwind + scss. All elements is based on shopify",
+    // description:
+    //   "Frontend is made by reat + tailwind + scss. All elements is based on shopify",
     tags: ["shopify", "react", "typescript", "tailwindcss", "scss", "express", "node"],
     icons: [
       "logos:shopify",
@@ -143,13 +143,13 @@ export const projectsData = [
       "logos:nodejs-icon",
     ],
     imageUrl: cryptoCrowdImg,
-    githubLink: "https://github.com/StrongVector/react-medusa",
+    // githubLink: "https://github.com/StrongVector/react-medusa",
     urlLink: "https://alshaabfurniture.com/",
   },
   {
     title: "Pink the cat",
-    description:
-      "Frontend is made by wordpress + scss. Backend is on shopify. I was charge of backend and I had completed it without any fault",
+    // description:
+    //   "Frontend is made by wordpress + scss. Backend is on shopify. I was charge of backend and I had completed it without any fault",
     tags: ["shopify", "react", "typescript", "scss","nodejs"],
     icons: [
       "logos:shopify",
@@ -160,7 +160,7 @@ export const projectsData = [
     ],
     imageUrl: assetTradingImg,
     urlLink: "https://eratchet.com/",
-    githubLink: "https://github.com/StrongVector/macketplace-medusa",
+    // githubLink: "https://github.com/StrongVector/macketplace-medusa",
   },
 
 ] as const;
