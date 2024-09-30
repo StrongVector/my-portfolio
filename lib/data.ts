@@ -70,9 +70,9 @@ export const projectsData = [
   {
     title: "Electropia",
     description:
-      "E-shop system written in openai  + react + shopify + node.js. Charged of electronics marketing, and sale.",
-    tags: ["react", "shopify" , "nodejs"],
-    icons: ["logos:react", "logos:shopify","logos:nodejs"],
+      "E-shop system written in openai  + next.js + shopify + node.js. Charged of electronics marketing, and sale.",
+    tags: ["next.js", "shopify" , "nodejs"],
+    icons: ["logos:nextjs", "logos:shopify","logos:nodejs"],
     imageUrl: electropia,
     // githubLink: "https://github.com/StrongVector/vue-medusa",
     urlLink: "https://72c916-e5.myshopify.com/",
@@ -250,6 +250,10 @@ export const skillsData = [
   {
     name: "",
     icon: "logos:express",
+  },
+  {
+    name: "next.js",
+    icon: "logos:nextjs",
   },
   // {
   //   name: "Linux",
