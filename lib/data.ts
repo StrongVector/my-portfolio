@@ -8,6 +8,7 @@ import assetTradingImg from "@/public/4.png";
 import techprowlImg from "@/public/2-2.png";
 // import taskManagerImg from "@/public/task-manager.png";
 import familyTreeImg from "@/public/1-1.png";
+import rymo from "@/public/RYMO.png";
 import electropia from "@/public/electropia.png";
 import hizenimg from "@/public/5.png";
 // import binaryGameImg from "@/public//binary-game.png";
@@ -87,13 +88,12 @@ export const projectsData = [
     // githubLink: "https://github.com/StrongVector/vue-medusa",
     urlLink: "https://en.hizen.de/",
   },
-
   {
     title: "NEEDED",
     // description:
     //   "E-shop system written in wordpress + shopify. Product management system via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
-    tags: ["Java", "MariaDB", "shopify"],
-    icons: ["logos:java", "logos:mariadb-icon", "logos:shopify", ],
+    tags: ["react","shopify"],
+    icons: ["logos:react","logos:shopify", ],
     imageUrl: ozdevsImg,
     // githubLink: "https://github.com/StrongVector/vue-medusa",
     urlLink: "https://thisisneeded.com/",
@@ -128,24 +128,24 @@ export const projectsData = [
     urlLink: "https://sparkleinpink.com",
   },
 
-  {
-    title: "Poly&Bark",
-    // description:
-    //   "Frontend is made by reat + tailwind + scss. All elements is based on shopify",
-    tags: ["shopify", "react", "typescript", "tailwindcss", "scss", "express", "node"],
-    icons: [
-      "logos:shopify",
-      "logos:react",
-      "logos:typescript",
-      "logos:tailwindcss",
-      "logos:scss",
-      "logos:express",
-      "logos:nodejs-icon",
-    ],
-    imageUrl: cryptoCrowdImg,
-    // githubLink: "https://github.com/StrongVector/react-medusa",
-    urlLink: "https://alshaabfurniture.com/",
-  },
+  // {
+  //   title: "Poly&Bark",
+  //   // description:
+  //   //   "Frontend is made by reat + tailwind + scss. All elements is based on shopify",
+  //   tags: ["shopify", "react", "typescript", "tailwindcss", "scss", "express", "node"],
+  //   icons: [
+  //     "logos:shopify",
+  //     "logos:react",
+  //     "logos:typescript",
+  //     "logos:tailwindcss",
+  //     "logos:scss",
+  //     "logos:express",
+  //     "logos:nodejs-icon",
+  //   ],
+  //   imageUrl: cryptoCrowdImg,
+  //   // githubLink: "https://github.com/StrongVector/react-medusa",
+  //   urlLink: "https://alshaabfurniture.com/",
+  // },
   {
     title: "Pink the cat",
     // description:
@@ -161,6 +161,22 @@ export const projectsData = [
     imageUrl: assetTradingImg,
     urlLink: "https://eratchet.com/",
     // githubLink: "https://github.com/StrongVector/macketplace-medusa",
+  },
+    {
+    title: "RYMO",
+    description:
+      "Powerful MERN Stack Ecommerce Project using React, Redux, Node.js, Express, MongoDB, Stripe.We are going to using Redux for state management, stipe to handle our payments, Cloudinary to handle our images, and follow the best practices to implement Authentication & Authorization. ",
+    tags: ["react", "express", "scss", "mongodb","nodejs"],
+    icons: [
+      "logos:react",
+      "logos:express",
+      "logos:scss",
+      "logos:mongodb",
+      "logos:nodejs"
+    ],
+    imageUrl: rymo,
+    urlLink: "https://e-shop-app.onrender.com/",
+    githubLink: "https://github.com/StrongVector/ecommerce-mern-full",
   },
 
 ] as const;
@@ -207,18 +223,10 @@ export const skillsData = [
     name: "less",
     icon: "logos:less",
   },
-  // {
-  //   name: "Symfony",
-  //   icon: "logos:symfony",
-  // },
   {
     name: "Python",
     icon: "logos:python",
   },
-  // {
-  //   name: "Java",
-  //   icon: "logos:java",
-  // },
   {
     name: "HTML",
     icon: "vscode-icons:file-type-html",
