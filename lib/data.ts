@@ -84,13 +84,6 @@ export const projectsData = [
     urlLink: "https://72c916-e5.myshopify.com/",
   },
   {
-    title: "NEEDED",
-    tags: ["react","shopify"],
-    icons: ["logos:react","logos:shopify", ],
-    imageUrl: ozdevsImg,
-    urlLink: "https://thisisneeded.com/",
-  },
-  {
     title: "LEVANTINE",
     tags: ["shopify", "wordpress", "scss", "nodejs"],
     icons: [
@@ -101,18 +94,6 @@ export const projectsData = [
     ],
     imageUrl: techprowlImg,
     urlLink: "https://levantinebags.com/",
-  },
-
-  {
-    title: "SPARKLEinPINK",
-    tags: ["shopify", "wordpress", "scss"],
-    icons: [
-      "logos:shopify",
-      "logos:wordpress",
-      "logos:scss",
-    ],
-    imageUrl: familyTreeImg,
-    urlLink: "https://sparkleinpink.com",
   },
   {
     title: "Pink the cat",
