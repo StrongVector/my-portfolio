@@ -9,6 +9,7 @@ import rymo from "@/public/RYMO.png";
 import electropia from "@/public/electropia.png";
 import hizenimg from "@/public/5.png";
 import smoke from "@/public/smoke.png";
+import cart from "@/public/cart.png";
 
 
 export const links = [
@@ -109,9 +110,26 @@ export const projectsData = [
     urlLink: "https://eratchet.com/",
   },
     {
+    title: "Shopping Cart",
+    description:
+      "Smart MERN Stack Ecommerce Project using React, Redux, Node.js, Express, MongoDB, tailwind CSS, and Stripe.I had developed it in purpose of education and reffernce for beginers to refer stripe and MERN. ",
+    tags: ["react", "express", "scss", "mongodb","nodejs", "tailwind CSS"],
+    icons: [
+      "logos:react",
+      "logos:express",
+      "logos:scss",
+      "logos:mongodb",
+      "logos:nodejs",
+      "logos:tailwindcss"
+    ],
+    imageUrl: cart,
+    // urlLink: "https://shopping-cart-ankit.vercel.app/",
+    githubLink: "https://github.com/StrongVector/feat-mern-stripe-shopping-cart",
+  },
+    {
     title: "RYMO",
     description:
-      "Powerful MERN Stack Ecommerce Project using React, Redux, Node.js, Express, MongoDB, Stripe.We are going to using Redux for state management, stipe to handle our payments, Cloudinary to handle our images, and follow the best practices to implement Authentication & Authorization. ",
+      "Powerful MERN Stack Ecommerce Project using React, Redux, Node.js, Express, MongoDB, Stripe. React and Tailwind CSS for standard ecommerce theme, Stripe for flexible payment. ",
     tags: ["react", "express", "scss", "mongodb","nodejs"],
     icons: [
       "logos:react",
